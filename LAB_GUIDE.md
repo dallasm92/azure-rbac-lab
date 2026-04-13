@@ -25,6 +25,8 @@ The next step was to create a storage account inside the new resource group:
 - Performance: `Standard`
 - Replication: `Read-access geo-redundant storage (RA-GRS)`
 
+This replication choice is captured from the screenshots as built. It was not the cheapest possible option for a beginner lab, but the guide keeps the actual configuration rather than rewriting it into the originally intended low-cost path.
+
 Evidence:
 
 - [03-storage-account-create-basics.png](screenshots/03-storage-account-create-basics.png)
@@ -65,6 +67,8 @@ The group list shows both security groups after creation:
 Evidence:
 
 - [08-entra-groups-created.png](screenshots/08-entra-groups-created.png)
+
+The earlier tenant overview showed no groups before this step, which is consistent with this being a fresh RBAC lab setup rather than reuse of older directory groups.
 
 ## 4. Assign Reader at the resource-group scope
 

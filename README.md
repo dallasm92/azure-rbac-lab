@@ -25,6 +25,7 @@ This lab was performed in:
 - Subscription: `Azure subscription 1`
 - Resource group: `rg-azure-lab-rbac`
 - Storage account: `rbaclabstorage01`
+- Storage replication shown in the build screenshots: `RA-GRS`
 - Entra groups:
   - `Lab-Readers`
   - `Lab-Contributors`
@@ -74,3 +75,4 @@ This is a basic but practical Azure administration pattern. In real environments
 
 - The screenshots were copied into this repo from the original lab folder and the Azure account banner was redacted in the repo copies.
 - This repo documents only what was visible in the screenshots. It does not assume extra steps that were not shown.
+- The storage account uses `RA-GRS` in the captured build flow. That is more than was strictly needed for a low-cost beginner lab, but it is the configuration actually shown in the evidence and is documented as-is.
